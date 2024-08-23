@@ -21,10 +21,7 @@ export default function LoginForm({ children }) {
     return <p>Loading...</p>;
   }
 
-  if (status === "authenticated") {
-    // Eviter de rendre quelque chose si on redirige
-    return null;
-  }
+
 
   return (
     <>

@@ -71,7 +71,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className="hidden md:flex h-full items-center py-12 justify-center">
-                <Image src="laptop.webp" width={500} height={500} alt="Laptop" className="max-w-[80%]"/>
+                <Image src="/laptop.webp" width={500} height={500} alt="Laptop" className="max-w-[80%]"/>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-1/3 m-3 flex p-9 animate-move-to-Up items-center max-h-fit rounded-full"><Image height={500} width={500} alt="balance-connectee-ruche-v2-1.webp" className="bg-yellow-500 rounded-full" src="balance-connectee-ruche-v2-1.webp"/></div>
+          <div className="w-1/3 m-3 flex p-9 animate-move-to-Up items-center max-h-fit rounded-full"><Image height={500} width={500} alt="balance-connectee-ruche-v2-1.webp" className="bg-yellow-500 rounded-full" src="/balance-connectee-ruche-v2-1.webp"/></div>
 
           <div className=" space-y-5 w-1/3">
             <div className="w-full h-1/3 flex justify-start">
@@ -201,7 +201,7 @@ export default function Home() {
 
           <div className="w-full grid grid-cols-1 place-items-center gap-10 lg:grid-cols-2  p-3 ">
             <div className="flex lg:hidden w-full h-fit ml-72 rounded-l-3xl justify-start py-3 bg-yellow-500">
-              <Image width={500} height={500} className="max-h-48" src="brood-sensor-beehive.png" alt="Brood Sensor" />
+              <Image width={500} height={500} className="max-h-48" src="/brood-sensor-beehive.png" alt="Brood Sensor" />
             </div>
             <div className="w-full place-self-start pr-28 max-w-lg rounded-xl">
               <div className="flex gap-2 ">
@@ -224,7 +224,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden lg:flex w-full h-fit max-h-90 rounded-l-3xl justify-start pr-5 py-3 bg-yellow-500">
-              <Image height={500} width={500} className="" src="brood-sensor-beehive.png" alt="Brood Sensor" />
+              <Image height={500} width={500} className="" src="/brood-sensor-beehive.png" alt="Brood Sensor" />
             </div>
           </div>
 
@@ -232,7 +232,7 @@ export default function Home() {
 
           <div className=" w-full grid lg:flex gap-10 mt-10 h-auto"> 
               <div className="max-w-2xl mr-36 p-12 max-h-80 rounded-r-3xl flex justify-end pr-5 py-3 bg-yellow-500">
-                  <Image height={500} width={500} alt=" " src="interface.webp"></Image>
+                  <Image height={500} width={500} alt=" " src="/interface.webp"></Image>
               </div>
               <div className="ml-36">
                 <div className="flex gap-2 ">
